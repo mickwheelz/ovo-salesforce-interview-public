@@ -4,19 +4,19 @@ Welcome!
 
 The aim of this task is to understand how you develop on salesforce. This task is based on a real world example of the type of work we do here at OVO.
 
-The time alloted is one hour, you may not get everything complete in that time but
+The time allotted is one hour, you may not get everything complete in this time. Ideally we want something that is functional at the end of the exercise.
 
-## Pre-requsites
+## Pre-requisites
 
 You will need the following in order to complete this task;
 
-1. Access to a salesforce org; This should **not** be a production org. Please use either a empty Scrarch org, or a Developer Edition org.
+1. Access to a salesforce org; This should **not** be a production org. Please use either an empty scratch org, or a Developer Edition org.
 
 If you don't have an org to use please go to https://developer.salesforce.com/signup and get a developer edition org.
 
 2. A suitable IDE and GIT configured on your system. You will need to clone this repository and deploy it to your org to start the task.
 
-We recomend VSCode, however feel free to use any IDE you are comfortable with. NOTE: As you need to clone and deploy this repo, the Developer Console cannot be used.
+We recommend VSCode, however feel free to use any IDE you are comfortable with. NOTE: As you need to clone and deploy this repo, the Developer Console cannot be used.
 
 3. SFDX and LWC-Jest in order to deploy and test your code. If you have yarn installed on your system you can run `yarn install` once you have cloned the repository to install these dependancies.
 
@@ -30,20 +30,20 @@ We recomend VSCode, however feel free to use any IDE you are comfortable with. N
 
 We have been provided with an API that returns a list of customers who have an online account. This API has been built by another team within OVO and is detailed in the API section below.
 
-We need to retieve and display the data that this API returns. The display of this data must be done in a lightning web component.
+We need to retrieve and display the data that this API returns. The display of this data must be done in a lightning web component.
 
 ## Design Notes
 
 1. The information returned from the API must be displayed to the user by using Lightning Web Components
 2. Any errors must be handled and shown to the user.
 3. Any Apex should have unit tests.
-4. LWC should also have JEST tests.
+4. LWC should also have jest unit tests.
 
 ## API Details
 
-The API is RESTful and secured useing HTTP Basic Autentication. The endpoint, username and password will be provided to you by the interviewer.
+The API is RESTful and secured using HTTP Basic Authentication. The endpoint, username and password will be provided to you by the interviewer.
 
-Here is an example of the API Repsonse. It will always contain more than one item, and all fields will always be populated.
+Here is an example of the API response. It will always contain more than one item, and all fields will always be populated.
 
 ```json
 [
