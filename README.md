@@ -4,7 +4,7 @@ Welcome!
 
 The aim of this task is to understand how you develop on salesforce. This task is based on a real world example of the type of work we do here at OVO.
 
-The time alloted is one hour, you may not get everything complete in that time but 
+The time alloted is one hour, you may not get everything complete in that time but
 
 ## Pre-requsites
 
@@ -19,7 +19,6 @@ If you don't have an org to use please go to https://developer.salesforce.com/si
 We recomend VSCode, however feel free to use any IDE you are comfortable with. NOTE: As you need to clone and deploy this repo, the Developer Console cannot be used.
 
 3. SFDX and LWC-Jest in order to deploy and test your code. If you have yarn installed on your system you can run `yarn install` once you have cloned the repository to install these dependancies.
-
 
 ## Getting Started
 
@@ -42,18 +41,18 @@ We need to retieve and display the data that this API returns. The display of th
 
 ## API Details
 
-The API is RESTful and secured useing HTTP Basic Autentication. The endpoint, username and password will be provided to you by the interviewer. 
+The API is RESTful and secured useing HTTP Basic Autentication. The endpoint, username and password will be provided to you by the interviewer.
 
 Here is an example of the API Repsonse. It will always contain more than one item, and all fields will always be populated.
 
 ```json
 [
-    {
-        "id": 1,
-        "username": "Michelle.Wheeler",
-        "firstName": "Michelle",
-        "lastName": "Wheeler"
-    }
+  {
+    "id": 1,
+    "username": "Michelle.Wheeler",
+    "firstName": "Michelle",
+    "lastName": "Wheeler"
+  }
 ]
 ```
 
@@ -63,4 +62,4 @@ Here is an example of the API Repsonse. It will always contain more than one ite
 2. For the purposes of this exercise, we aren't concerned with what it looks like to the user, as long as the information is there.
 3. You don't need to consider pagination / handling more than 10 results for this exercise.
 4. Security/Access control does not need to be considered for this exercise.
-5. You do not need to commit your changes back to this repository. 
+5. You do not need to commit your changes back to this repository.
